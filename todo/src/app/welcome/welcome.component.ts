@@ -33,6 +33,14 @@ export class WelcomeComponent implements OnInit {
     //console.log("get Welcome message");
   }
 
+  getWelcomeMessageWithParameter(){
+
+    this.service.executeHelloWorldBeanServiceWithPathVariable(this.name).subscribe(
+      response => this.handleSuccessfulResponse(response),
+      error => this.handleErrorResponse(error)
+      );
+    //console.log("get Welcome message");
+  }
   handleSuccessfulResponse(response){
     this.messageFromService = response.message;
   }

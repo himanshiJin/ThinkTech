@@ -21,8 +21,8 @@ public class HelloWorldController {
 	//hello-world-bean
 	@GetMapping(path="/hello-world-bean")
 	public HelloWorldBean helloWorldBean() {
-		throw new RuntimeException("Some Error has Occurred! Contect support at ******");
-		//return new HelloWorldBean("Hello World -Changed");
+		//throw new RuntimeException("Some Error has Occurred! Contect support at ******");
+		return new HelloWorldBean("Hello World -Changed");
 	}
 	
 	@GetMapping(path="/hello-world/path-variable/{name}")
