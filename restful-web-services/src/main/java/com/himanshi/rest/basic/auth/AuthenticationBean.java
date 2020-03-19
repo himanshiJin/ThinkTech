@@ -1,4 +1,4 @@
-package com.himanshi.rest.webservices.restfulwebservices.basic.auth;
+package com.himanshi.rest.basic.auth;
 
 public class AuthenticationBean{
 

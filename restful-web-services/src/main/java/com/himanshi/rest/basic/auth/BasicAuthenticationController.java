@@ -1,4 +1,4 @@
-package com.himanshi.rest.webservices.restfulwebservices.basic.auth;
+package com.himanshi.rest.basic.auth;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
