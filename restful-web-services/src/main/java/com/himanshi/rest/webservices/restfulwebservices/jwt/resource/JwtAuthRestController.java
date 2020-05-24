@@ -25,7 +25,7 @@ import com.himanshi.rest.webservices.restfulwebservices.jwt.JwtTokenUtil;
 import com.himanshi.rest.webservices.restfulwebservices.jwt.JwtUserDetails;
 
 @RestController
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="https://hjindal-dev.github.io")
 public class JwtAuthRestController {
 
   @Value("${jwt.http.request.header}")
